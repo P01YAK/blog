@@ -14,24 +14,35 @@
 <body>
     <div class="container">
 
-        <header class="header row">
+            <header>
+                <nav class="navbar fixed-top navbar-white bg-white border-primary border-bottom border-2">
+                    <div class="container">
+                        <a class="navbar-brand" href="/">
+                            <img src="img/logo-github.svg" alt="" width="50" height="30"
+                                class="d-inline-block align-text-top">
+                            POLYAK
+                        </a>
+                        <button class="navbar-toggler btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler align-text-top">Меню</span>
+                        </button>
 
-            <div class="col-3">
-                <div class="block">
-                    <h2>POLYAK</h2>
-                </div>
-            </div>
+                        <div class="collapse navbar-collapse" id="navbarToggler">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="/">Функции</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Coming soon</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </header>
 
-            <div class="col-9">
-                <div class="block">
-                    Navigation
-                </div>
-            </div>
-
-        </header>
 
     </div>
-
 
     <script> document.oncontextmenu = cmenu; function cmenu() { return false; }</script>
 </body>
