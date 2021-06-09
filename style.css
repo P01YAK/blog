@@ -1,0 +1,29 @@
+.carousel-item {
+    height: 500px;
+}
+
+.carousel-item img {
+    height: 500px;
+}
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.btn-outline-primary {
+    border: none;
+    outline: none;
+    text-decoration: none;
+    border-color: white;
+}
+
+.btn-outline-primary:hover {
+    background-color: white;
+    color: #1253b4;
+    text-decoration: none;
+}
+
+#main {
+    padding-top: 80px;
+}
