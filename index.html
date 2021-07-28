@@ -1,58 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/p.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <title>POLYAK</title>
 </head>
-<body class="dark">
-    <div class="container">
 
-        <div class="row">
-            <div class="col-12">
-                <div class="h1 text-center text-dark">POLYAK CORPORATION</div>
-                <div class="itd-play">
-                    <div class="itd-triangle"></div>
+<body class="bg-dark">
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="h1 text-center text-warning">POLYAK CORPORATION</div>
+                    <div class="itd-play btn" data-bs-toggle="modal" data-bs-target="#movie">
+                        <div class="itd-triangle"></div>
+                    </div>
+                    <a href="#footer" class="btn itd-btn btn-outline-warning btn-lg text-uppercase">пошумим</a>
                 </div>
-                <a href="#footer" class="btn btn-dark btn-lg text-uppercase">пошумим</a>
             </div>
         </div>
-        <!-- navigation -->
-            <!-- <header id="header" class="fixed-top">
-                <nav class="navbar navbar-white bg-white border-primary border-bottom border-2">
-                    <div class="container">
-                        <a class="navbar-brand" href="index.html">
-                            <img src="img/logo-github.svg" alt="" width="50" height="30"
-                                class="d-inline-block align-text-top">
-                            POLYAK
-                        </a>
-                        <button class="navbar-toggler btn btn-outline-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
-                            aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler align-text-top">Меню</span>
-                        </button>
-
-                        <div class="collapse navbar-collapse" id="navbarToggler">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html">Функции</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Coming soon</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </header> -->
-    </div>
+    </header>
 
     <!-- Content -->
     <section>
@@ -64,6 +36,25 @@
         1
     </footer>
 
+    <div class="modal fade" id="movie" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                        <!-- <span aria-hidden="true">&times;</span> -->
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class='embed-container'><iframe src='https://www.youtube.com/embed/smttkZ06oYg' frameborder='0' allowfullscreen></iframe></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- <script> document.oncontextmenu = cmenu; function cmenu() { return false; }</script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
 </body>
+
 </html>
