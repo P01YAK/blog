@@ -73,10 +73,6 @@ section {
 }
 
 .card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin: auto;
     margin-bottom: 50px;
-    padding-top: 1rem;
 }
