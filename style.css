@@ -5,7 +5,7 @@ footer {
 }
 
 header {
-    padding: 200px 0;
+    padding: 200px 0 400px 0;
 }
 
 header,
@@ -46,7 +46,7 @@ section {
 
 .itd-btn {
     display: block;
-    max-width: 200px;
+    max-width: 250px;
     margin: 0 auto;
 }
 
@@ -66,4 +66,16 @@ section {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.section_title {
+    margin-bottom: 50px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
 }
